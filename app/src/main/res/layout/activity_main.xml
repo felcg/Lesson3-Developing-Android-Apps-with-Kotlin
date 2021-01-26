@@ -17,7 +17,6 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <!-- TODO (03) Add the DrawerLayout,containing the content LinearLayout and navHostFragment-->
     <androidx.drawerlayout.widget.DrawerLayout
         android:id="@+id/drawerLayout"
         android:layout_width="match_parent"
@@ -45,7 +44,4 @@
             app:headerLayout="@layout/nav_header"
             app:menu="@menu/navdrawer_menu" />
     </androidx.drawerlayout.widget.DrawerLayout>
-
-
-    <!-- TODO (04) Add the NavigationView at the bottom of the DrawerLayout -->
 </layout>
